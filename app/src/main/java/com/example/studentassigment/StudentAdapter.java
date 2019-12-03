@@ -61,7 +61,6 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.stdview>
             std_level.setText(std.getLevel());
             std_avg.setText(std.getAvg());
 
-            // move data from one activity to another
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
